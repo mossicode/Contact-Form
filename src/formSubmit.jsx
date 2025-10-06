@@ -66,6 +66,7 @@ export default function FormSubmit({setSuccessMessage, successMessage}) {
       });
        setSuccessMessage(true);  
        setIsDisabled(true)
+       window.scrollTo({ top: 0, behavior: "smooth" });
    }
    
    }
